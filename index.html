@@ -20,86 +20,101 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- ICONS -->
 		<script src="https://kit.fontawesome.com/10342158be.js" crossorigin="anonymous"></script>
+		<!-- GFONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 		<title>Créer son portfolio | Varesva</title>
 	</head>
 	<body>
 		<main>
-			<h1>Méthode de création en 4 étapes</h1>
-			<div class="block_container">			
-				<div class="block orange">
-					<p>Regrouper</p>
-				</div>
+			<div class="container">
+				<h1>Méthode de création en 4 étapes</h1>
+				<div class="block_container">			
+					<div class="block orange">
+						<p>Regrouper</p>
+					</div>
+					<div class="full-arrow-down">
+						<div class="horizontal"></div>
+						<div class="arrow-down"></div>
+					</div>
 
-				<div class="full-arrow-down">
-					<div class="horizontal"></div>
-					<div class="arrow-down"></div>
-				</div>
+					<div class="full-arrow-right d-md-none">
+						<span class="horizontal"></span>
+						<span class="arrow-right"></span>
+					</div>
+					
+					<div class="block red">
+						<p>Organiser</p>
+					</div>
 
-				<div class="full-arrow-right d-md-none">
-					<span class="horizontal"></span>
-					<span class="arrow-right"></span>
-				</div>
-				
-				<div class="block red">
-					<p>Organiser</p>
-				</div>
+					<div class="full-arrow-down">
+						<div class="horizontal"></div>
+						<div class="arrow-down"></div>
+					</div>
 
-				<div class="full-arrow-down">
-					<div class="horizontal"></div>
-					<div class="arrow-down"></div>
-				</div>
+					<div class="full-arrow-right d-md-none">
+						<span class="horizontal"></span>
+						<span class="arrow-right"></span>
+					</div>
 
-				<div class="full-arrow-right d-md-none">
-					<span class="horizontal"></span>
-					<span class="arrow-right"></span>
-				</div>
+					<div class="block blue">
+						<p>Maquetter</p>
+					</div>
 
-				<div class="block blue">
-					<p>Maquetter</p>
-				</div>
-				
-				<div class="full-arrow-down">
-					<div class="horizontal"></div>
-					<div class="arrow-down"></div>
-				</div>
+						<div class="full-arrow-down">
+							<div class="horizontal"></div>
+							<div class="arrow-down"></div>
+						</div>
 
-				<div class="full-arrow-right d-md-none">
-					<span class="horizontal"></span>
-					<span class="arrow-right"></span>
-				</div>
+						<div class="full-arrow-right d-md-none">
+							<span class="horizontal"></span>
+							<span class="arrow-right"></span>
+						</div>
 
-				<div class="block green">
-					<p>Diffuser</p>
+						<div class="block green">
+							<p>Diffuser</p>
+						</div>
 				</div>
 			</div>
 		</main>
+		<!-- BACK TO TOP -->
+		<button onclick="backToTop()" id="toTop" aria-label="Retourner en haut de la page" title="Retourner en haut de la page"></button>
+
 		<!-- FOOTER -->
 		<footer>
 			<picture>
-				<img src="./logo.gif" loading="lazy" alt="Logo Varesva - développement Web et Web Mobile"/>	
+				<a href="https:/www.varesva-dev.tech">
+					<img src="./logo.gif" loading="lazy" alt="Logo Varesva - développement Web et Web Mobile"/>	
+				</a>
 			</picture>
 			<p class="copyright">
-				Tous droits réservés - &copy <span id="year"></span>,
-				<a href="https://www.linkedin.com/in/justine-tavares-developpeur-web">
-					Justine Tavares Vaz
+				Tous droits réservés - &copy <span id="year"></span>, <br>
+				<!-- LIEN PORTFOLIO -->
+				<a href="https:/www.varesva-dev.tech">
+					Justine Tavares Vaz 
+					<span class="text-small">(Portfolio)</span>
 				</a>
 				<br />
-				<small> Fait avec amour &#128151; ! </small>
+				<small> Fait avec passion &#128151; ! </small>
 			</p>
 			<div class="socials">
 				<p>Où me retrouver ?</p>
 				<ul>
 					<li>
-						<a href="https://github.com/Varesva" aria-label="Lien vers Compte Github">
+						<!-- GITHUB -->
+						<a href="https://github.com/varesva" aria-label="Lien vers Compte Github">
 							<i class="fa-brands fa-square-github"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/justine-tavares-developpeur-web" aria-label="Lien vers Compte Linked">
+						<!-- LINKED IN -->
+						<a href="www.linkedin.com/in/justine-tavares-vaz-994963190" aria-label="Lien vers Compte LinkedIn">
 							<i class="fa-brands fa-linkedin"></i>
 						</a>
 					</li>
 					<li>
+						<!-- TWITTER -->
 						<a href="https://twitter.com/varesvaDev" aria-label="Lien vers Compte Twitter">
 							<i class="fa-brands fa-square-twitter"></i>
 						</a>
